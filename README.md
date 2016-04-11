@@ -20,6 +20,8 @@ story](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)_:
 
 > xxx: [`smack-my-bitch-up.sh`](https://github.com/NARKOZ/hacker-scripts/blob/master/smack-my-bitch-up.sh) - sends a text message "late at work" to his wife (apparently). Automatically picks reasons from an array of strings, randomly. Runs inside a cron-job. The job fires if there are active SSH-sessions on the server after 9pm with his login.
 
+> 某某某：[`smack-my-bitch-up.sh`](https://github.com/NARKOZ/hacker-scripts/blob/master/smack-my-bitch-up.sh) 似乎是，发送一条信息“在加班”给他老婆。自动地从一个字符串数组中随机地选择原因。运行在一个计划任务中。如果晚上9点以后，在服务器上，他的登录状态是激活的SSH会话，这个任务就会触发。
+
 > xxx: [`kumar-asshole.sh`](https://github.com/NARKOZ/hacker-scripts/blob/master/kumar-asshole.sh) - scans the inbox for emails from "Kumar" (a DBA at our clients). Looks for keywords like "help", "trouble", "sorry" etc. If keywords are found - the script SSHes into the clients server and rolls back the staging database to the latest backup. Then sends a reply "no worries mate, be careful next time".
 
 > xxx: [`hangover.sh`](https://github.com/NARKOZ/hacker-scripts/blob/master/hangover.sh) - another cron-job that is set to specific dates. Sends automated emails like "not feeling well/gonna work from home" etc. Adds a random "reason" from another predefined array of strings. Fires if there are no interactive sessions on the server at 8:45am.
@@ -28,12 +30,20 @@ story](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)_:
 
 > xxx: holy sh*t I'm keeping those
 
+> 某某某：太神奇了，SHIT，我要保留这些东西
+
 Original: http://bash.im/quote/436725 (in Russian)  
 Pull requests with other implementations (Python, Perl, Shell, etc) are welcome.
 
-## Usage
+来源： http://bash.im/quote/436725 (俄语)  
+欢迎提供其他语言的实现(Python, Perl, Shell, ...)
+
+## Usage 
+用法
 
 You need these environment variables:
+
+你需要这些环境变量：
 
 ```sh
 # used in `smack-my-bitch-up` and `hangover` scripts
@@ -48,7 +58,10 @@ GMAIL_PASSWORD=password
 For Ruby scripts you need to install gems:
 `gem install dotenv twilio-ruby gmail`
 
+为了运行Ruby脚本，你需要安装gems：
+
 ## Cron jobs
+计划任务
 
 ```sh
 # Runs `smack-my-bitch-up.sh` monday to friday at 9:20 pm.
@@ -66,3 +79,5 @@ For Ruby scripts you need to install gems:
 
 ---
 Code is released under WTFPL.
+
+代码已经在WTFPL下发布了
