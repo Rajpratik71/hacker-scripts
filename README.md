@@ -1,5 +1,5 @@
 # Hacker Scripts
-黑客脚本 --- 超过90s的任务，不自动化，你好意思说你是黑客？[资源：伯乐在线]()
+黑客脚本 --- 超过90s的任务，不自动化，你好意思说你是黑客？[(资源：伯乐在线)]()
 
 Based on a _[true
 story](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)_:
