@@ -1,13 +1,22 @@
 # Hacker Scripts
+黑客脚本 --- 超过90s的任务，不自动化，你好意思说你是黑客？[资源：伯乐在线]()
 
 Based on a _[true
 story](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)_:
 
+这是一个真实的故事：Alex有一位前同事，就是生活在终端里面的大牛。如果某些事情，花费他的时间超过90秒，他就会写一个脚本，实现自动处理那些事情。
+
 > xxx: OK, so, our build engineer has left for another company. The dude was literally living inside the terminal. You know, that type of a guy who loves Vim, creates diagrams in Dot and writes wiki-posts in Markdown... If something - anything - requires more than 90 seconds of his time, he writes a script to automate that.
+
+> 某某某：好吧，我们的构建工程师已经离开了，去了另外一家公司。那哥们是真的生活在终端里面。你知道的，那种类型的家伙，喜欢Vim,在Dot里面创建图形，在Markdown里面写wiki帖子......如果有事情，或者说任意事情，需要超过他90秒的时间，他就会写一个脚本，自动去处理。
 
 > xxx: So we're sitting here, looking through his, uhm, "legacy"
 
+> 某某某：嗯，因此我们坐在这里，浏览他的“遗产”
+
 > xxx: You're gonna love this
+
+> 某某某：你会喜欢这个的
 
 > xxx: [`smack-my-bitch-up.sh`](https://github.com/NARKOZ/hacker-scripts/blob/master/smack-my-bitch-up.sh) - sends a text message "late at work" to his wife (apparently). Automatically picks reasons from an array of strings, randomly. Runs inside a cron-job. The job fires if there are active SSH-sessions on the server after 9pm with his login.
 
