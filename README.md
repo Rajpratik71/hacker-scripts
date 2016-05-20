@@ -1,5 +1,7 @@
 # Hacker Scripts
 
+[![Join the chat at https://gitter.im/ehnydeel/hacker-scripts](https://badges.gitter.im/ehnydeel/hacker-scripts.svg)](https://gitter.im/ehnydeel/hacker-scripts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Based on a _[true
 story](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)_:
 
